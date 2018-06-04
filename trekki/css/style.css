@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(90deg, #aed581, #00e25b);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+@keyframes BackgroundGradient{
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+h1{
+    font-size: 3em;
+    color: #eeeeee;
+}
+
+p{
+    color: #eeeeee;
+    font-size: 1em;
+}
+.flex-center{
+    width: 40%;
+    margin: 0 5% 0 5%;
+    float: left;
+}
+.flex-center img{
+    background: yellow;
+}

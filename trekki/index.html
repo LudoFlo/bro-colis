@@ -1,0 +1,84 @@
+<!--<?php
+if(isset($_POST['inscription']) AND $_POST['inscription'] == "Inscription"){
+var_dump($_POST);
+extract($_POST);
+
+$champEmail = (isset($_POST['email']) ? $_POST['email'] : null);
+
+$content .= $erreur
+?>-->
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Trekki</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyADQKLb6BrfjyJPBBwBIdEoihLx6S0mqfA",
+            authDomain: "bro-colis.firebaseapp.com",
+            databaseURL: "https://bro-colis.firebaseio.com",
+            projectId: "bro-colis",
+            storageBucket: "",
+            messagingSenderId: "381638920763"
+        };
+        firebase.initializeApp(config);
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <img src="#" alt="logo" />
+        </a>
+    </header>
+    <!-- ECRAN 1 -->
+    <div style="height: 90vh">
+        <div class="flex-center flex-column">
+            <h1>La solution pour s'évader sans bouger</h1>
+            <p>La plate-forme s'écurisée pour les amoureux du grand air qui permet de s'évader de chez soi sans difficulté.</p>
+            <br><br>
+            <p>Inscrivez-vous et faites partis la commnunauté</p>
+            <form class="form-row" action="inscription_newsletter" method="post">
+                <label for="emailInput"></label>
+                    <input id="emailInput" type="text" name="email" placeholder="Adresse mail" value="" />
+                    <input name="inscription" class="btn btn-primary btn-md" type="submit" value="Inscrivez-vous" />
+            </form>
+        </div>
+        <div class="flex-center flex-column">
+            <img src="" alt="mockup montre">
+        </div>
+    </div>
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
