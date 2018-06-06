@@ -77,7 +77,11 @@ $content .= $erreur
 </head>
 
 <body>
-
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FJ29J3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
     <!-- ECRAN 1 -->
     <div style="height: 100vh">
         <div class="flex-center flex-column left">
