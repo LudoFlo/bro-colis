@@ -28,14 +28,14 @@ catch(Exception $e){ //en cas d'erreur, on affiche le type d'erreur
 
 
 // paramétrage de url :
-define('URL_SITE','http://localhost/mon_site/');
+define('URL_SITE','http://localhost/bro-scolis/trekki/');
 // variable d'affichage :
 $content = "";// message d'erreur ou succès dans cette variable.
 // intégration du fichier fonction
-include 'fonction.inc.php';
+//include 'fonction.inc.php';
 
 // parametrage de la racine du site
-define('RACINE_SITE',$_SERVER['DOCUMENT_ROOT'] . '/mon_site/');
+define('RACINE_SITE',$_SERVER['DOCUMENT_ROOT'] . '/trekki/');
 //echo RACINE_SITE;
 
 //gestion des sessions :

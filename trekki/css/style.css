@@ -1,7 +1,6 @@
 body{
-    background: linear-gradient(90deg, #aed581, #00e25b);
-    background-size: 400% 400%;
-    animation: BackgroundGradient 30s ease infinite;
+    background: url("../img/foret.png") no-repeat;
+    background-size: 250vh 150vh;
 }
 @keyframes BackgroundGradient{
     0% {background-position: 0% 50%;}
@@ -11,18 +10,54 @@ body{
 
 h1{
     font-size: 3em;
-    color: #eeeeee;
+    font-weight: normal;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, #fcff00, #ffd800);
+    padding: 0 5% 0 5%;
 }
 
 p{
-    color: #eeeeee;
     font-size: 1em;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, #fcff00, #ffd800);
+    padding: 0 5% 0 5%;
 }
-.flex-center{
-    width: 40%;
-    margin: 0 5% 0 5%;
+.left{
+    background: linear-gradient(180deg, #39c566, #39b7c5);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+    width: 50%;
     float: left;
 }
-.flex-center img{
-    background: yellow;
+.right{
+    /*background: linear-gradient(180deg, #02d01b, #008a7f);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+    opacity: 0.59;*/
+    width: 50%;
+}
+#fil{
+    opacity: unset;
+    width: 100%;
+}
+.send{
+    border: none;
+    background: linear-gradient(90deg, #ffd800, #fcff00);
+}
+.send:hover{
+    background: linear-gradient(90deg,#fcff00, #ffd800);
+}
+.form-row p{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(left,#3f22d5, #6d2fc9);
+}
+.form-row p:hover{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(left, #6d2fc9, #3f22d5);
+
 }
