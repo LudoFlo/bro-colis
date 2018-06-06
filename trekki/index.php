@@ -7,7 +7,7 @@ if(isset($_POST['inscription']) AND $_POST['inscription'] == "Inscrivez-vous"){
     
     //vérification de l'email
         if(!filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){
-            $erreur.= echo '<div class="alert alert-danger">Le format de l\'email est incorrect</div> ';
+            $erreur.= '<div class="alert alert-danger">Le format de l\'email est incorrect</div> ';
         }
     //insertion dans la bdd    
     if(empty($erreur)){ //si aucune erreur, on fait un insert des données
@@ -26,7 +26,7 @@ if(isset($_POST['inscription']) AND $_POST['inscription'] == "Inscrivez-vous"){
 
 
     }else{
-            $content.= echo '<div class="alert alert-danger">Votre inscription a bien été envoyé</div> ';
+            $content.= '<div class="alert alert-danger">Votre inscription a bien été envoyé</div> ';
             unset($_POST); //je vide le contenu de $_POST // unset() => vider le contenu d'un array
         }
 }
@@ -38,9 +38,16 @@ $content .= $erreur
 
 ?>
 <!DOCTYPE html>
-<html lang="en>
+<html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5FJ29J3');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
