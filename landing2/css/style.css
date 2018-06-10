@@ -1,0 +1,155 @@
+body{
+    background: linear-gradient(180deg, #39afff, #39b7f5);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+@keyframes BackgroundGradient{
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: normal;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, #fcff00, #ffd800);
+    padding: 0 5% 0 5%;
+}
+
+p{
+    font-size: 1em;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, #fcff00, #ffd800);
+    padding: 0 5% 0 5%;
+}
+/*#fil{
+    opacity: unset;
+    width: 100%;
+}
+.send{
+    border: none;
+    background: linear-gradient(90deg, #ffd800, #fcff00);
+}
+.send:hover{
+    background: linear-gradient(90deg,#fcff00, #ffd800);
+}
+.form-row p{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(left,#3f22d5, #6d2fc9);
+}
+.form-row p:hover{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(left, #6d2fc9, #3f22d5);
+}*/
+/**/
+
+/*style form*/
+#mc-embedded-subscribe-form{
+    background: #fff;
+}
+/**/
+#mc_embed_signup_scroll div{
+    width: 0px;
+}
+/*style input email*/
+#mce-EMAIL{
+    padding: 5px 30px 5px 15px;
+    border: 0px solid;
+    width: 50%;
+}
+/* style bouton submit */
+#mc-embedded-subscribe{
+    padding: 5px 15px;
+    border: 0px solid;
+    border: none;
+    margin: 0;
+    background: linear-gradient(90deg, #006952, #00a2a0);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    cursor: pointer;
+    color: #fff;
+}
+#mc-embedded-subscribe:hover{
+    padding: 5px 15px;
+    border: 0px solid;
+    border: none;
+    margin: 0;
+    background: linear-gradient(90deg,#00a2a0, #006952);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+/*style desktop*/
+@media screen and (max-width:1050px){
+    body{
+        width:95%;
+        margin: auto;
+    }
+    header{
+        width:100%;
+    }
+    nav{
+        clear: both;
+        width: 100%;
+    }
+    section{
+        width: 40%;
+    }
+    article{
+        width: 60%;
+    }
+}
+/*style mobile*/
+@media screen and (max-width:450px){
+    body, nav, article, section{
+        width:100%;
+        margin: 0;
+    }
+    img{
+        size: 70%;
+    }
+    h1, p{
+        width: 50%;
+        margin: 5%;
+    }
+    
+}
+#myform{
+  display: flex;
+}
+#myform input[type=text]{
+  padding: 5px 15px;
+  border-top: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  border-right: none;
+}
+#myform button {
+  padding: 5px 15px;
+  border-right: 1px solid #537EA5;
+  border-top: 1px solid #537EA5;
+  border-bottom: 1px solid #537EA5;
+  border-left: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #5C97BF;
+  color: #fff;
+}
