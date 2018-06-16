@@ -1,0 +1,1483 @@
+/* A */
+html{
+position: absolute;
+width: 1366px;
+height: 768px;
+}
+
+
+/* A Landing */
+body{
+position: absolute;
+width: 1366px;
+height: 768px;
+
+background: #FFFFFF;
+}
+
+/* Rectangle */
+
+position: absolute;
+width: 1366px;
+height: 768px;
+left: 0px;
+top: 0px;
+
+background: #C4C4C4;
+
+
+/* BG */
+
+position: absolute;
+width: 1366px;
+height: 768px;
+left: 0px;
+top: 0px;
+
+background: url(BG.jpg);
+
+
+/* La mission */
+
+position: absolute;
+width: 1440px;
+height: 562px;
+left: 0px;
+top: 3291px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 1440px;
+height: 562px;
+left: 0px;
+top: 3291px;
+
+background: #828282;
+
+
+/* BACKGROUND gradan */
+
+position: absolute;
+width: 178px;
+height: 27.01px;
+left: 600px;
+top: 3374px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 18px;
+
+color: #F2F2F2;
+
+
+/* inscription */
+
+position: absolute;
+width: 691px;
+height: 56px;
+left: 347px;
+top: 3636px;
+
+
+
+/* Adress mail */
+
+position: absolute;
+width: 466px;
+height: 56px;
+left: 347px;
+top: 3636px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 466px;
+height: 56px;
+left: 347px;
+top: 3636px;
+
+background: #C4C4C4;
+
+
+/* adress mail */
+
+position: absolute;
+width: 283px;
+height: 24px;
+left: 442px;
+top: 3654px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* inscrivez-vous */
+
+position: absolute;
+width: 244px;
+height: 56px;
+left: 794px;
+top: 3636px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 244px;
+height: 56px;
+left: 794px;
+top: 3636px;
+
+background: #716D6D;
+
+
+/* inscrivez -vous */
+
+position: absolute;
+width: 147px;
+height: 28px;
+left: 834px;
+top: 3650px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* texte */
+
+position: absolute;
+width: 856px;
+height: 79px;
+left: 280px;
+top: 3479px;
+
+
+
+/* Faite partie des premier a en profiter */
+
+position: absolute;
+width: 856px;
+height: 79px;
+left: 280px;
+top: 3479px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 45px;
+text-align: center;
+
+color: #000000;
+
+
+/* Avis */
+
+position: absolute;
+width: 1440px;
+height: 721px;
+left: 0px;
+top: 2527px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 1440px;
+height: 721px;
+left: 0px;
+top: 2527px;
+
+background: #828282;
+
+
+/* personne */
+
+position: absolute;
+width: 1153px;
+height: 318px;
+left: 116px;
+top: 2744px;
+
+
+
+/* personne 3 */
+
+position: absolute;
+width: 345px;
+height: 318px;
+left: 924px;
+top: 2744px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 345px;
+height: 318px;
+left: 924px;
+top: 2744px;
+
+background: #B7B0B0;
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor */
+
+position: absolute;
+width: 275px;
+height: 72px;
+left: 963px;
+top: 2941px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* Rectangle */
+
+position: absolute;
+width: 92.63px;
+height: 94px;
+left: 963px;
+top: 2768px;
+
+background: #787373;
+border-radius: 60px;
+
+
+/* J.Mamadou */
+
+position: absolute;
+width: 121.97px;
+height: 30px;
+left: 964.83px;
+top: 2886px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* Photo */
+
+position: absolute;
+width: 87px;
+height: 24px;
+left: 968.23px;
+top: 2791px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 30px;
+text-align: center;
+
+color: #000000;
+
+
+/* background gradient */
+
+position: absolute;
+width: 183px;
+height: 24px;
+left: 1058px;
+top: 2761px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* personne 2 */
+
+position: absolute;
+width: 345px;
+height: 318px;
+left: 522px;
+top: 2744px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 345px;
+height: 318px;
+left: 522px;
+top: 2744px;
+
+background: #B7B0B0;
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor */
+
+position: absolute;
+width: 275px;
+height: 72px;
+left: 561px;
+top: 2941px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* Rectangle */
+
+position: absolute;
+width: 92.63px;
+height: 94px;
+left: 561px;
+top: 2768px;
+
+background: #787373;
+border-radius: 60px;
+
+
+/* J.Mamadou */
+
+position: absolute;
+width: 121.97px;
+height: 30px;
+left: 562.83px;
+top: 2886px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* Photo */
+
+position: absolute;
+width: 87px;
+height: 24px;
+left: 560.23px;
+top: 2791px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 30px;
+text-align: center;
+
+color: #000000;
+
+
+/* background gradient */
+
+position: absolute;
+width: 183px;
+height: 24px;
+left: 656px;
+top: 2761px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* personne 1 */
+
+position: absolute;
+width: 345px;
+height: 318px;
+left: 116px;
+top: 2744px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 345px;
+height: 318px;
+left: 116px;
+top: 2744px;
+
+background: #B7B0B0;
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor */
+
+position: absolute;
+width: 275px;
+height: 72px;
+left: 155px;
+top: 2941px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* Rectangle */
+
+position: absolute;
+width: 92.63px;
+height: 94px;
+left: 155px;
+top: 2768px;
+
+background: #787373;
+border-radius: 60px;
+
+
+/* J.Mamadou */
+
+position: absolute;
+width: 121.97px;
+height: 30px;
+left: 156.83px;
+top: 2886px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* Photo */
+
+position: absolute;
+width: 87px;
+height: 24px;
+left: 160.23px;
+top: 2791px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 30px;
+text-align: center;
+
+color: #000000;
+
+
+/* background gradient */
+
+position: absolute;
+width: 183px;
+height: 24px;
+left: 250px;
+top: 2761px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* Ils nous font confiance */
+
+position: absolute;
+width: 345px;
+height: 36px;
+left: 522px;
+top: 2614px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+font-size: 30px;
+text-align: center;
+
+color: #000000;
+
+
+/* Avantage */
+
+position: absolute;
+width: 1440px;
+height: 721px;
+left: 0px;
+top: 1725px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 1440px;
+height: 721px;
+left: 0px;
+top: 1725px;
+
+background: #828282;
+
+
+/* texte */
+
+position: absolute;
+width: 761px;
+height: 425px;
+left: 522px;
+top: 1815px;
+
+
+
+/* Avantage */
+
+position: absolute;
+width: 345px;
+height: 36px;
+left: 522px;
+top: 1815px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+font-size: 30px;
+text-align: center;
+
+color: #000000;
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. */
+
+position: absolute;
+width: 474px;
+height: 176px;
+left: 809px;
+top: 2064px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* 4 avantage */
+
+position: absolute;
+width: 1286px;
+height: 333px;
+left: 49px;
+top: 1957px;
+
+
+
+/* Avantage 4 */
+
+position: absolute;
+width: 264px;
+height: 333px;
+left: 1071px;
+top: 1957px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 264px;
+height: 315px;
+left: 1071px;
+top: 1957px;
+
+background: #C4C4C4;
+
+
+/* Ut enim ad minim veniam, quis nostrud exercitation ullamc */
+
+position: absolute;
+width: 223px;
+height: 126px;
+left: 1091px;
+top: 2164px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+text-align: center;
+
+color: #000000;
+
+
+/* Securiser */
+
+position: absolute;
+width: 101px;
+height: 49px;
+left: 1145px;
+top: 2115px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+font-size: 20px;
+text-align: center;
+
+color: #000000;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 101px;
+height: 101px;
+left: 1145px;
+top: 1993px;
+
+background: #665C5C;
+
+
+/* icon */
+
+position: absolute;
+width: 58px;
+height: 24px;
+left: 1167px;
+top: 2025px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 30px;
+text-align: center;
+
+color: #000000;
+
+
+/* background gradient */
+
+position: absolute;
+width: 145px;
+height: 14px;
+left: 1087px;
+top: 1962px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+
+color: #000000;
+
+
+/* Avantage 3 */
+
+position: absolute;
+width: 264px;
+height: 333px;
+left: 724px;
+top: 1957px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 264px;
+height: 315px;
+left: 724px;
+top: 1957px;
+
+background: #C4C4C4;
+
+
+/* Ut enim ad minim veniam, quis nostrud exercitation ullamc */
+
+position: absolute;
+width: 223px;
+height: 126px;
+left: 744px;
+top: 2164px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+text-align: center;
+
+color: #000000;
+
+
+/* Securiser */
+
+position: absolute;
+width: 101px;
+height: 49px;
+left: 799px;
+top: 2115px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+font-size: 20px;
+text-align: center;
+
+color: #000000;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 101px;
+height: 101px;
+left: 799px;
+top: 1993px;
+
+background: #665C5C;
+
+
+/* icon */
+
+position: absolute;
+width: 58px;
+height: 24px;
+left: 821px;
+top: 2025px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 30px;
+text-align: center;
+
+color: #000000;
+
+
+/* background gradient */
+
+position: absolute;
+width: 145px;
+height: 14px;
+left: 728px;
+top: 1962px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+
+color: #000000;
+
+
+/* Avantage 2 */
+
+position: absolute;
+width: 264px;
+height: 333px;
+left: 378px;
+top: 1957px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 264px;
+height: 315px;
+left: 378px;
+top: 1957px;
+
+background: #C4C4C4;
+
+
+/* Ut enim ad minim veniam, quis nostrud exercitation ullamc */
+
+position: absolute;
+width: 223px;
+height: 126px;
+left: 398px;
+top: 2164px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+text-align: center;
+
+color: #000000;
+
+
+/* Securiser */
+
+position: absolute;
+width: 101px;
+height: 49px;
+left: 452px;
+top: 2115px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+font-size: 20px;
+text-align: center;
+
+color: #000000;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 101px;
+height: 101px;
+left: 452px;
+top: 1993px;
+
+background: #665C5C;
+
+
+/* icon */
+
+position: absolute;
+width: 58px;
+height: 24px;
+left: 474px;
+top: 2025px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 30px;
+text-align: center;
+
+color: #000000;
+
+
+/* background gradient */
+
+position: absolute;
+width: 145px;
+height: 14px;
+left: 386px;
+top: 1964px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+
+color: #000000;
+
+
+/* Avantage 1 */
+
+position: absolute;
+width: 264px;
+height: 333px;
+left: 49px;
+top: 1957px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 264px;
+height: 315px;
+left: 49px;
+top: 1957px;
+
+background: #C4C4C4;
+
+
+/* Ut enim ad minim veniam, quis nostrud exercitation ullamc */
+
+position: absolute;
+width: 223px;
+height: 126px;
+left: 69px;
+top: 2164px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+text-align: center;
+
+color: #000000;
+
+
+/* Securiser */
+
+position: absolute;
+width: 101px;
+height: 49px;
+left: 124px;
+top: 2115px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+font-size: 20px;
+text-align: center;
+
+color: #000000;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 101px;
+height: 101px;
+left: 124px;
+top: 1993px;
+
+background: #665C5C;
+
+
+/* icon */
+
+position: absolute;
+width: 58px;
+height: 24px;
+left: 146px;
+top: 2025px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 30px;
+text-align: center;
+
+color: #000000;
+
+
+/* background gradient */
+
+position: absolute;
+width: 145px;
+height: 14px;
+left: 55px;
+top: 1963px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+
+color: #000000;
+
+
+/* Le produit */
+
+position: absolute;
+width: 1440px;
+height: 922px;
+left: 0px;
+top: 740px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 1440px;
+height: 922px;
+left: 0px;
+top: 740px;
+
+background: #828282;
+
+
+/* texte */
+
+position: absolute;
+width: 696px;
+height: 748px;
+left: 91px;
+top: 842px;
+
+
+
+/* Fonctionement */
+
+position: absolute;
+width: 696px;
+height: 748px;
+left: 91px;
+top: 842px;
+
+
+
+/* 3 */
+
+position: absolute;
+width: 593px;
+height: 216px;
+left: 95px;
+top: 1374px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 593px;
+height: 164px;
+left: 95px;
+top: 1374px;
+
+background: #C4C4C4;
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. */
+
+position: absolute;
+width: 550.99px;
+height: 176px;
+left: 115px;
+top: 1414px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* Background gradient */
+
+position: absolute;
+width: 223px;
+height: 23px;
+left: 96px;
+top: 1381px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+
+color: #000000;
+
+
+/* 2 */
+
+position: absolute;
+width: 593px;
+height: 216px;
+left: 194px;
+top: 1158px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 593px;
+height: 164px;
+left: 194px;
+top: 1158px;
+
+background: #C4C4C4;
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. */
+
+position: absolute;
+width: 550.99px;
+height: 176px;
+left: 230px;
+top: 1198px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* Background gradient */
+
+position: absolute;
+width: 223px;
+height: 23px;
+left: 203px;
+top: 1164px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+
+color: #000000;
+
+
+/* 1 */
+
+position: absolute;
+width: 628px;
+height: 206px;
+left: 91px;
+top: 939px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 628px;
+height: 164px;
+left: 91px;
+top: 939px;
+
+background: #C4C4C4;
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. */
+
+position: absolute;
+width: 550.99px;
+height: 176px;
+left: 131.22px;
+top: 969px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+
+/* Background gradient */
+
+position: absolute;
+width: 223px;
+height: 23px;
+left: 98px;
+top: 940px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+
+color: #000000;
+
+
+/* Comment sa marche */
+
+position: absolute;
+width: 401.04px;
+height: 36px;
+left: 123px;
+top: 842px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+font-size: 30px;
+
+color: #000000;
+
+
+/* mockup */
+
+position: absolute;
+width: 486px;
+height: 542px;
+left: 799px;
+top: 929px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 486px;
+height: 542px;
+left: 799px;
+top: 929px;
+
+background: #C4C4C4;
+
+
+/* mockup montre */
+
+position: absolute;
+width: 255.05px;
+height: 48px;
+left: 908px;
+top: 1177px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 30px;
+text-align: center;
+
+color: #000000;
+
+
+/* La mission */
+
+position: absolute;
+width: 1366px;
+height: 768px;
+left: 0px;
+top: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 1366px;
+height: 768px;
+left: 0px;
+top: 0px;
+
+background: #AAAAAA;
+
+
+/* inscription */
+
+position: absolute;
+width: 557px;
+height: 56px;
+left: 115px;
+top: 494px;
+
+
+
+/* Adresse E-mail */
+
+position: absolute;
+width: 442px;
+height: 56px;
+left: 115px;
+top: 494px;
+
+
+
+/* Group */
+
+position: absolute;
+width: 442px;
+height: 56px;
+left: 115px;
+top: 494px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 442px;
+height: 56px;
+right: 809px;
+top: 494px;
+
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+border-radius: 29px;
+
+
+/* Adresse E-mail */
+
+position: absolute;
+width: 183.64px;
+height: 22px;
+left: 144.41px;
+top: 511px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 16px;
+
+color: #E0E0E0;
+
+
+/* Je m'inscris */
+
+position: absolute;
+width: 210px;
+height: 56px;
+left: 462px;
+top: 494px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 210px;
+height: 56px;
+right: 694px;
+top: 494px;
+
+background: linear-gradient(90deg, #03C0BC 0%, rgba(255, 255, 255, 0) 100%), #00956F;
+border-radius: 29px;
+
+
+/* LET’S GO */
+
+position: absolute;
+width: 210px;
+height: 16px;
+left: 462px;
+top: 514px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 16px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* texte */
+
+position: absolute;
+width: 556px;
+height: 278px;
+left: 117px;
+top: 230px;
+
+
+
+/* Partez à l’aventure en toute sécurité. Live it! prépare le kit de vie adapté pour vous. Inscrivez-vous à notre newsletter et recevez des astuces pour vivre au maximun vos aventures. */
+
+position: absolute;
+width: 556px;
+height: 278px;
+left: 117px;
+top: 230px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 40px;
+
+color: #FFFFFF;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 442px;
+height: 526px;
+left: 809px;
+top: 93px;
+
+background: #C4C4C4;
+
+
+/* Mockup , iphone montre, bracelet */
+
+position: absolute;
+width: 296px;
+height: 112px;
+left: 897px;
+top: 295px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 18px;
+text-align: center;
+
+color: #000000;
+
+
+/* logo */
+
+position: absolute;
+width: 95px;
+height: 100px;
+left: 116px;
+top: 61px;
+
+background: url(Fichier 3.png);
