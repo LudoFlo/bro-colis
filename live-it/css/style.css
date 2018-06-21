@@ -1,5 +1,13 @@
+/*html{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}*/
 body{
     margin: 0;
+    padding: 0;
+    /*min-height: 100%;
+    max-width: 1440px;*/
 }
 h1, h2, p{
     font-family: 'Lato', sans-serif;
@@ -28,10 +36,10 @@ a{
     background-image: -webkit-linear-gradient(left, #333, #555);*/
 }
 .title, .text{
-        width: 556px;
-        color: #fff;
-        font-family: 'Lato', sans-serif;
-        font-weight: bold;
+    width: 556px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
     }
 /*style form*/
 #mc-embedded-subscribe-form{
@@ -41,8 +49,16 @@ a{
     height: 47px;
     background: #fff;
     border: 2px solid #F2F2F2;
+    position: relative;
+    /*z-index: 0;*/
 }
 /**/
+#mce-responses .clear{
+    display: none !important;
+}
+#mc_embed_signup_scroll div.mce_inline_error{
+    display: none !important;
+}
 #mc_embed_signup_scroll div{
     
 }
@@ -51,7 +67,7 @@ a{
         width: 360px;
         height: 47px;
         border: none;
-        border-radius: 32px;
+        border-radius: 29px;
         font-weight: bold;
     }
     #mce-EMAIL::placeholder{
@@ -59,10 +75,16 @@ a{
         font-family: 'Lato' sans-serif;
         font-weight: normal;
     }
+    #mce-success-response{
+        font-family: 'Lato' sans-serif;
+        color: #fff;
+        display: none;
+    }
     /* style bouton submit */
     #mc-embedded-subscribe{
         width: 184px;
         height: 47px;
+        /*z-index: 1;*/
         border: currentColor;
         border-radius: 29px;
         background: linear-gradient(90deg, #FFEA00, #FFC000);
@@ -77,19 +99,12 @@ a{
         text-transform: uppercase;
     }
     #mc-embedded-subscribe:hover{
-        width: 184px;
-        height: 47px;
-        border: currentColor;
-        border-radius: 29px;
+        /*z-index: 1;*/
         background: linear-gradient(90deg, #FFB800, #FF9900);
         -webkit-transition: all 0.4s;
         -o-transition: all 0.4s;
         -moz-transition: all 0.4s;
         transition: all 0.4s;
-        cursor: pointer;
-        font-family: 'Lato', sans-serif;
-        font-weight: bold;
-        text-transform: uppercase;
         color: #FFF;
     }
 
@@ -102,16 +117,19 @@ footer a{
 }
 .social{
     width: 288px;
-    display: inline;
+    display: block;
     background: blue;
 }
 
 
 /*  STYLE DESKTOP   */
-@media screen and (min-width: 1260px) and (max-width:2560px){
+@media screen and (max-width:2560px){
     body{
-        width:;
-        background: url(../img/desktop/BG_DESKTOP.jpg) no-repeat;
+        width: 100%;
+        background: url(../img/desktop/BG_DESKTOP.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }img{
         margin: 5% 7% 2%;
@@ -128,15 +146,14 @@ footer a{
         margin-bottom: 2%;
     }
     .title, .text{
-        width: 45%;/*556spx 50%*/
+        width: 45%;/*556px 50%*/
         text-align: left;
         margin: 0 7%;
     }
     .title{
-        line-height: 48px;
         font-size: 40px;
         font-weight: bold;
-        margin-top: 3%;
+        margin-top: 2%;
     }
     .text{
         font-size: 25px;
@@ -145,48 +162,57 @@ footer a{
     }
     /*form*/
     #mc-embedded-subscribe-form{
-        width: ;
+        width: 45%;
         margin: 3% 7%;
     }
     /* input email */
     #mce-EMAIL{
-        line-height: 20px;
-        font-size: 24px;
+        width: 70%;
+        line-height: 19px;
+        font-size: 16px;
         font-weight: normal;
         padding-left: 5%;
     }
+    .clear{
+        right: 184px;
+        top: 0px;
+        position: absolute;
+    }
     /* bouton submit */
     #mc-embedded-subscribe{
-        float: right;
-        line-height: 20px;
-        font-size: 24px;
-    }
-    #mc-embedded-subscribe:hover{
-        float: right;
-        line-height: 20px;
-        font-size: 24px;
+        width: 184px;
+        line-height: 19px;
+        font-size: 16px;
+        position: absolute;
     }
     footer{   
-        margin-top: 4%;
+        margin-top: 6%;
     }
     .social{
-        margin: 0 7%;
+        margin: 0 7%; 
     }
     .social img{
-        margin: auto;
-        display: block;
+        width: 25%;
+        background: red;
+        margin: 0 4%;
+        vertical-align: middle;
+        text-align: center;
+        display: inline-block;
     }
 }
 
 
-/*  STYLE TABLET 1  */
-@media screen and (min-width: 768px) and (max-width:1260px){
+/*  STYLE LAPTOP  */
+@media screen and (max-width:1260px){
     body{
-        width:100%;
-        background: url(../img/desktop/BG_DESKTOP.jpg) no-repeat;
+        width: 100%;
+        background: url(../img/desktop/BG_DESKTOP.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }img{
-        width: 13%;
+        width: 10%;
         margin: 5% 7% 2%;
     }
     h1, h2, p{
@@ -203,49 +229,57 @@ footer a{
     .title, .text{
         text-align: left;
         margin: 0 7%;
-        padding-top: 3%;
+        width: 40%;
     }
     .title{
-        width: 460px;
-        font-size: 32px;
+        font-size: 30px;
         font-weight: bold;
+        padding-top: 2%;
     }
     .text{
-        width: 460px;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: normal;
+        padding-top: 3%;
     }
     /*form*/
     #mc-embedded-subscribe-form{
-        width: ;
+        width: 45%;
+        height: 35px;
         margin: 0 7%;
         margin-top: 3%;
     }
+    .clear{
+        right: 142px;
+        top: 0px;
+        position: absolute;
+    }
     /* input email */
     #mce-EMAIL{
-        width: ;
-        line-height: 20px;
-        font-size: 18px;
+        width: 70%;
+        height: 35px;
+        line-height: 19px;
         font-weight: normal;
-        padding-left: 5%;
+        padding-left: 3%;
     }
     /* bouton submit */
     #mc-embedded-subscribe{
-        float: right;
-    }
-    #mc-embedded-subscribe:hover{
-        float: right;
+        width: 142px;/*30%*/
+        height: 35px;
+        line-height: 19px;
     }
     footer{  
-    margin-top: 15%; 
+    margin-top: 10%; 
     }
 }
 
-/*  STYLE TABLET 2  */
-@media screen and (min-width: 580px) and (max-width:768px){
+/*  STYLE TABLET  */
+@media screen and (max-width:780px){
     body{
-        width:100%;
-        background: url(../img/desktop/BG_DESKTOP.jpg) no-repeat;
+        width: 100%;
+        background: url(../img/desktop/BG_DESKTOP.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }img{
         width: 13%;
@@ -286,40 +320,46 @@ footer a{
     }
     /* input email */
     #mce-EMAIL{
-        width: 50%;
+        width: 70%;
         height: 30px;
         line-height: 16px;
         font-size: 14px;
         font-weight: normal;
         padding-left: 5%;
     }
+    .clear{
+        right: 101px;
+        top: 0px;
+        position: absolute;
+    }
     /* bouton submit */
     #mc-embedded-subscribe{
-        float: right;
-        width: 30%;
-        height: 30px;
-    }
-    #mc-embedded-subscribe:hover{
-        float: right;
-        width: 30%;
+        width: 101px;
         height: 30px;
     }
     footer{  
     margin:5% 0; 
     }
     footer p{
-        margin-top: 15%;
+        margin-top: 25%;
         font-size: 11px;
+    }
+    .social{
+        display: inline-block;
     }
 }
 
 /*  STYLE MOBILE  */
 @media screen and (max-width:580px){
     body{
-        width:100%;
-        /*height: 667px;*/
-        margin: 0;
-        background: url(../img/mobile/BG-MOBILE.jpg) no-repeat;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background: url(../img/mobile/BG-MOBILE.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     .center{
@@ -366,6 +406,12 @@ footer a{
         height: 26px;
         margin: 5%;
     }
+    .clear{
+        text-align: center;
+        vertical-align: middle;
+        top: 45px;
+        width: 100%;
+    }
     /* input email */
     #mce-EMAIL{
         width: 90%;
@@ -377,27 +423,15 @@ footer a{
     /* bouton submit */
     #mc-embedded-subscribe{
         line-height: 19px;
-        width: 40%;
+        width: 100%;
+        margin:5% 0%;
+        min-width: 119px;
         max-width: 210px;
         height: 30px;
-        text-transform: uppercase;
-        margin: 5% 30%;
-        display: block;
-        vertical-align: middle;
-    }
-    #mc-embedded-subscribe:hover{
-        line-height: 19px;
-        width: 40%;
-        max-width: 210px;
-        height: 30px;
-        text-transform: uppercase;
-        margin: 5% 30%;
-        display: block;
-        vertical-align: middle;
     }
     footer{  
         width: 90%;
-        margin: 20% 5% 0;
+        margin: 0% 5% 0;
         text-align: center;
     }
     footer p{
